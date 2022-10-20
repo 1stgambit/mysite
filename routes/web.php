@@ -29,5 +29,7 @@ Route::any('/login/google/callback', [Controllers\AuthController::class, 'google
 
 
 
+Route::any('/login/gfdfsoogle', [Controllers\AuthController::class, 'googlePut']);
+Route::any('/login/googfdsfsle/callback', [Controllers\AuthController::class, 'googleGet']);
 Route::any('/login/googleeee', [Controllers\AuthController::class, 'googlePut']);
 Route::any('/login/googlessee', [Controllers\AuthController::class, 'googlePut']);
